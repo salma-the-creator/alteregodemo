@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.sifedin.tinderclone"
+    namespace = "com.salma.tinderclone"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.sifedin.tinderclone"
+        applicationId = "com.salma.tinderclone"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -38,6 +38,10 @@ android {
 }
 
 dependencies {
+    implementation("androidx.media3:media3-exoplayer:1.3.1")
+    implementation("androidx.media3:media3-ui:1.3.1")
+    implementation("io.coil-kt:coil-compose:2.4.0")
+    implementation("io.coil-kt:coil-gif:2.4.0")
     // Core
     implementation("androidx.core:core-ktx:1.13.1")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.0")
@@ -64,6 +68,9 @@ dependencies {
     implementation("com.google.firebase:firebase-auth-ktx")
     implementation("com.google.firebase:firebase-firestore-ktx")
     implementation("com.google.firebase:firebase-storage-ktx")
+    
+    // Google Sign-In
+    implementation("com.google.android.gms:play-services-auth:21.0.0")
 
     // Cloudinary & Async Operations
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")

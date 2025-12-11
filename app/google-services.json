@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "254308408712",
-    "project_id": "holadatingapp",
-    "storage_bucket": "holadatingapp.firebasestorage.app"
+    "project_number": "591274729680",
+    "project_id": "alteregodemo-73775",
+    "storage_bucket": "alteregodemo-73775.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:254308408712:android:8d3616fd07758eb902ee3d",
+        "mobilesdk_app_id": "1:591274729680:android:baf97911c64793617d3ed5",
         "android_client_info": {
-          "package_name": "com.sifedin.tinderclone"
+          "package_name": "com.salma.tinderclone"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAlkH6yNhduERia3kExtNdhAVf5IpmIqgI"
+          "current_key": "AIzaSyC7ltI_al-S_IK1W42WAaC36BQtpchBou8"
         }
       ],
       "services": {
